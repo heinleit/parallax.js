@@ -22,9 +22,10 @@ if(Parallax.AUTOINIT) {
 Parallax.AUTOINIT = false;
 ```
 
-####Init
+#### Init
 Basically, you can call the `parallax()` function on any jquery selector. 
 The selected elements either need to have a `data-src` attribute or a child element which is matched by the `sliderSelector` query (see options).
+
 #### Defaults
 The default values, which are used for `.parallax()` (and merged with an optional options parameter), look as follows:
 
